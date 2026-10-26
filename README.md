@@ -33,15 +33,12 @@ The application was tested for:
 ## Reflection Questions
 
 ### Question 1: How does the AI Signup Coach work?
-[Insert your finalized three-sentence answer here.]
-
+When the user taps Get a signup tip, the app clears any previous tip or error, shows “Loading tip...” text, and disables the button so repeated taps can’t start duplicate requests. If the mock succeeds, the tip appears beneath the button under a “Signup Tip (Mock)” label, limited to 240 characters. If it fails, the app shows a friendly error message with a Retry button that starts a new request, and the signup form keeps working either way.
 ### Question 2: Why should signup validation remain local?
-[Insert your finalized three-sentence answer here.]
-
+The app validates the signup fields itself because validation is a decision, while an AI tip is only advice, and a decision should be predictable. Local rules give the same result every time, work even if the AI service is down, and keep the user’s name, email, and password on their device, since the tip request sends only a generic topic. An AI tip also can’t prove a password is secure, so it should never override a local validation error.
 ## Contributions
-**Student:** [Your name]
+**Student:** Eyobed Gebregziabher
 
-[Describe your contributions and list your partner's contributions if applicable.]
 
 ## Running the Project
 1. Open the project in VS Code or Android Studio.
