@@ -54,5 +54,4 @@ The generated APK is located at:
 `build/app/outputs/flutter-apk/app-release.apk`
 
 ## Submission
-- GitHub repository: [Insert repository URL]
 - Release APK: Submitted separately
